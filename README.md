@@ -1,0 +1,1 @@
+this project goal is to test electron js
