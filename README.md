@@ -44,3 +44,31 @@ adding a `.vscode/launch.json` for debug
 addding a preload script to expose node, chrome versions, and electron versions in variables, loading it in the window and injecting them throught the index DOM using renderer.js
 
 adding a method 'ping' called throuht ipcRenderer via preload
+
+## chapter four : Adding Features
+
+n/a
+
+## chapter five : Packaging Your Application
+
+installing Electron Forge's CLI :
+
+```
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+```
+
+after those two commands, app has been converted to a Electron Forge format.
+
+to create a distribuable : `npm run make`
+
+it produce a out directory with `my-electron-app-1.0.0 Setup.exe` in make directory
+
+and also deprecationWarnings :
+
+`(node:3144) [DEP0174] DeprecationWarning: Calling promisify on a function that returns a Promise is likely a mistake.`
+
+for me, after installing the application using the `my-electron-app-1.0.0 Setup.exe` from out/make the applications is installed in :
+```
+C:\Users\[username]\AppData\Local\my_electron_app
+```
