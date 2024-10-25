@@ -36,3 +36,5 @@ command `npm run start` run Electron and show the log that I wrote in main.js
 create a `index.html` file and replacing `main.js` code to load html page in a browserWindow 
 
 `npm run start`  now open a window with the content of index.html
+
+adding a `.vscode/launch.json` for debug
