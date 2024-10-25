@@ -38,3 +38,7 @@ create a `index.html` file and replacing `main.js` code to load html page in a b
 `npm run start`  now open a window with the content of index.html
 
 adding a `.vscode/launch.json` for debug
+
+## chapter three : Using Preload Scripts
+
+addding a preload script to expose node, chrome versions, and electron versions in variables, loading it in the window and injecting them throught the index DOM using renderer.js
